@@ -17,8 +17,15 @@ const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
 app.component('example-component', ExampleComponent);
+
 import Client from './components/Client.vue';
 app.component('Client', Client);
+
+import AuthorizedClients from './components/AuthorizedClients.vue';
+app.component('AuthorizedClients', AuthorizedClients);
+
+import PersonalAccessTokens from './components/PersonalAccessTokens.vue';
+app.component('PersonalAccessTokens', PersonalAccessTokens);
 
 /**
  * The following block of code may be used to automatically register your
