@@ -25,5 +25,8 @@ class DatabaseSeeder extends Seeder
           ['title'=>'title 2'],
           ['title'=>'title 3'],
         ];
+//comment
+            Post::insert($data);
+
     }
 }
